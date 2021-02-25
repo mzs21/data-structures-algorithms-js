@@ -6,14 +6,14 @@ class Queue
     }
 
     // Add element to the front of the Queue
-    enqueue(element) 
+    enqueue(element)                                // Time Complexity O(1)
     {
         console.log(`${element} enqueued`)
         return this.items.push(element);
     }
 
     // Remove element from the rear of the Queue
-    dequeue()
+    dequeue()                                       // Time Complexity O(n)
     {
         let shiftedElem = this.items.shift();
         console.log(`${shiftedElem} dequeued`)
@@ -74,7 +74,6 @@ class Queue
     }
 }
 
-// Time Complexity O(1)
 // Space Complexity O(n)
 
 // The lines below are not part of the data structure
