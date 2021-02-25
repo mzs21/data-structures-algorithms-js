@@ -6,14 +6,14 @@ class Queue
     }
 
     // Add element to the front of the Queue
-    enqueue(element)                                // Time Complexity O(1)
+    enqueue(element)                                    // Time Complexity O(1)
     {
         console.log(`${element} enqueued`)
         return this.items.push(element);
     }
 
     // Remove element from the rear of the Queue
-    dequeue()                                       // Time Complexity O(n)
+    dequeue()                                           // Time Complexity O(n)
     {
         let shiftedElem = this.items.shift();
         console.log(`${shiftedElem} dequeued`)
