@@ -74,6 +74,7 @@ class Queue
     }
 }
 
+// FIFO Principle (FIFO : First in First Out)
 // Space Complexity O(n)
 
 // The lines below are not part of the data structure
