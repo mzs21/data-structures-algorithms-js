@@ -8,7 +8,7 @@ class Stack
 
     // Add element to the top of the stack
     
-    push(element)
+    push(element)                                           // Time Complexity O(1)
     {
         this.items[this.count] = element;
         console.log(`${element} added to ${this.count}`)
@@ -19,7 +19,7 @@ class Stack
     // Return and remove top element in stack
     // Return undefined if stack is empty
 
-    pop()
+    pop()                                                   // Time Complexity O(1)
     {
         if(this.count == 0) return undefined;
 
@@ -82,7 +82,8 @@ class Stack
     }
 }
 
-// Time Complexity O(1)
+// LIFO Principle (LIFO: Last in First Out)
+
 // Space Complexity O(n)
 
 // The lines below are not part of the data structure
