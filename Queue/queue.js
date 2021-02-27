@@ -9,7 +9,7 @@ class Queue
     enqueue(element)                                    // Time Complexity O(1)
     {
         console.log(`${element} enqueued`)
-        return this.items.unshift(element);
+        return this.items.push(element);
     }
 
     // Remove element from the front of the Queue
