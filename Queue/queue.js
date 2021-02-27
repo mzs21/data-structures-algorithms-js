@@ -9,7 +9,7 @@ class Queue
     enqueue(element)                                    // Time Complexity O(1)
     {
         console.log(`${element} enqueued`)
-        return this.items.push(element);
+        return this.items.unshift(element);
     }
 
     // Remove element from the rear of the Queue
@@ -79,7 +79,7 @@ class Queue
 
 // The lines below are not part of the data structure
 
-/*
+
 const queue = new Queue();
 
 queue.enqueue(1);
@@ -107,4 +107,3 @@ queue.clear();
 queue.size();
 console.log('Queue:' + queue.print());
 
-*/
