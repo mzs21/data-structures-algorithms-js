@@ -12,7 +12,7 @@ class Queue
         return this.items.unshift(element);
     }
 
-    // Remove element from the rear of the Queue
+    // Remove element from the front of the Queue
     dequeue()                                           // Time Complexity O(n)
     {
         let shiftedElem = this.items.shift();
