@@ -79,7 +79,7 @@ class Queue
 
 // The lines below are not part of the data structure
 
-
+/*
 const queue = new Queue();
 
 queue.enqueue(1);
@@ -106,4 +106,4 @@ queue.clear();
 
 queue.size();
 console.log('Queue:' + queue.print());
-
+*/
