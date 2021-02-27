@@ -5,14 +5,14 @@ class Queue
         this.items = [];
     }
 
-    // Add element to the front of the Queue
+    // Adds element to the front of the Queue
     enqueue(element)                                    // Time Complexity O(1)
     {
         console.log(`${element} enqueued`)
         return this.items.push(element);
     }
 
-    // Remove element from the front of the Queue
+    // Removes element from the front of the Queue
     dequeue()                                           // Time Complexity O(n)
     {
         let shiftedElem = this.items.shift();
@@ -41,14 +41,14 @@ class Queue
         return this.items.length;
     }
 
-    // Check Queue is empty
+    // Checks if Queue is empty
     isEmpty()
     {
         console.log(this.items.length == 0 ? 'Queue is empty' : 'Queue is NOT empty');
         return this.items.length == 0;
     }
 
-    // Print Queue
+    // Prints Queue
     print()
     {
         let str = '';
@@ -65,7 +65,7 @@ class Queue
         return str;
     }
 
-    // Clear Queue
+    // Clears Queue
     clear()
     {
         console.log('items cleared..')
