@@ -6,7 +6,7 @@ class Stack
         this.count = 0;                                         
     }
 
-    // Add element to the top of the stack
+    // Adds element to the top of the stack
     
     push(element)                                           // Time Complexity O(1)
     {
@@ -16,8 +16,8 @@ class Stack
         return this.count - 1;
     }
 
-    // Return and remove top element in stack
-    // Return undefined if stack is empty
+    // Returns and removes top element in stack
+    // Returns undefined if stack is empty
 
     pop()                                                   // Time Complexity O(1)
     {
@@ -29,7 +29,7 @@ class Stack
         return deleteItm;
     }
 
-    // Check top element in stack
+    // Checks top element in stack
 
     peek()
     {
@@ -37,7 +37,7 @@ class Stack
         return this.items[this.count - 1];
     }
 
-    // Check if stack is empty
+    // Checks if stack is empty
 
     isEmpty()
     {
@@ -45,7 +45,7 @@ class Stack
         return this.count == 0;
     }
 
-    // Stack size
+    // Stacks size
 
     size()
     {
@@ -69,7 +69,7 @@ class Stack
         return str;
     }
 
-    // Clear stack
+    // Clears stack
 
     clear()
     {
