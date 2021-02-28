@@ -74,6 +74,7 @@ class PriorityQueue
     clear()
     {
         console.log('items cleared..')
+        this.list.length = 0;
         return this.list = [];
     }
 }
@@ -83,7 +84,7 @@ class PriorityQueue
 
 // The lines below are not part of the data structure
 
-/*
+
 const priQueue = new PriorityQueue();
 
 priQueue.enqueue(['etet',4]);
@@ -103,6 +104,8 @@ priQueue.front();
 priQueue.rear();
 
 priQueue.clear();
-*/
+priQueue.print();
+
+priQueue.size();
 
 
