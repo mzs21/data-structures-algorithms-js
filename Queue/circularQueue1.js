@@ -89,7 +89,7 @@ class CircularQueue
 
 // The lines below are not part of the data structure
 
-
+/*
 const cirQueue = new CircularQueue(5);
 
 cirQueue.enqueue(15);
@@ -122,3 +122,4 @@ cirQueue.clear();
 cirQueue.print();
 
 cirQueue.length();
+*/
