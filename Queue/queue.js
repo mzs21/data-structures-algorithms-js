@@ -53,7 +53,7 @@ class Queue
     {
         let str = '';
 
-        if(this.items.length != 0)
+        if(this.items.length !== 0)
         {
             for(let i = 0; i< this.items.length; i++)
             {
