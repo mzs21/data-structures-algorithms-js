@@ -28,6 +28,7 @@ class CircularQueue
         return this.size === 0;
     }
 
+    // Adds element to the rear of the Queue
     enqueue(item)                                                    // Time Complexity O(1)
     {
         if(this.isFull())
@@ -45,6 +46,7 @@ class CircularQueue
         return item;
     }
 
+    // Removes element from the front of the Queue
     dequeue()                                                        // Time Complexity O(1)
     {
         let item = null;
