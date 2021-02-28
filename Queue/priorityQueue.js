@@ -84,7 +84,7 @@ class PriorityQueue
 
 // The lines below are not part of the data structure
 
-
+/*
 const priQueue = new PriorityQueue();
 
 priQueue.enqueue(['etet',4]);
@@ -107,5 +107,5 @@ priQueue.clear();
 priQueue.print();
 
 priQueue.size();
-
+*/
 
