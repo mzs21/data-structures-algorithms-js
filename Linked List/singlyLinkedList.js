@@ -236,12 +236,12 @@ singlyLinkedList.getData(1000);
 
 singlyLinkedList.length();
 
-singlyLinkedList.printData()
+singlyLinkedList.printData();
 
 singlyLinkedList.reverseLinkedList();
 
 console.log('After reversing: ');
-singlyLinkedList.printData()
+singlyLinkedList.printData();
 
 singlyLinkedList.getData(300);
 
@@ -261,7 +261,7 @@ singlyLinkedList.getIndex(9);
 singlyLinkedList.reverseLinkedList();
 
 console.log('After reversing: ');
-singlyLinkedList.printData()
+singlyLinkedList.printData();
 
 singlyLinkedList.clear();
 singlyLinkedList.length();
