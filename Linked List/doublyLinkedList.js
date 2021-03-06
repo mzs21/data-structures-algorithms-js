@@ -55,7 +55,7 @@ class DoublyLinkedList
     {
         let current = this.head;
 
-        console.log('Linked List:')
+        console.log('Linked List:');
 
         while (current) 
         {
@@ -69,20 +69,19 @@ class DoublyLinkedList
     {
         let current = this.head;
 
-        console.log('Linked List:')
+        console.log('Linked List:');
 
         while (current) 
         {
             console.log(current);
             current = current.next;
-            
         }
     }
 
     insertAt(data, index)                       // Time Complexity O(n)
     {
         // If index is out of range
-        this.outOfRange(index)
+        this.outOfRange(index);
 
         // If first index
         if(index === 0) return this.prepend(data);
@@ -151,7 +150,7 @@ class DoublyLinkedList
     removeIndex(index)                          // Time Complexity O(n)
     {
         // If index is out of range
-        this.outOfRange(index)
+        this.outOfRange(index);
 
         let current = this.head;
         let previous;
@@ -242,7 +241,7 @@ doublyLinkedList.printData();
 doublyLinkedList.reverseLinkedList();
 
 console.log('After reversing: ');
-doublyLinkedList.printData()
+doublyLinkedList.printData();
 
 doublyLinkedList.getData(300);
 
@@ -262,7 +261,7 @@ doublyLinkedList.getIndex(9);
 doublyLinkedList.reverseLinkedList();
 
 console.log('After reversing: ');
-doublyLinkedList.printData()
+doublyLinkedList.printData();
 
 doublyLinkedList.clear();
 doublyLinkedList.length();
