@@ -159,7 +159,7 @@ class SinglyLinkedList
     {
         let current = this.head;
 
-        console.log('Data(s) of Linked List:')
+        console.log('Data(s) of Linked List:');
 
         while (current) 
         {
