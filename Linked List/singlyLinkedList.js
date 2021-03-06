@@ -53,7 +53,7 @@ class SinglyLinkedList
     insertAt(data, index)                       // Time Complexity O(n)
     {
         // If index is out of range
-        this.outOfRange(index)
+        this.outOfRange(index);
 
         // If first index
         if(index === 0) return this.prepend(data);
