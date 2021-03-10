@@ -1,12 +1,4 @@
-class Node
-{
-    constructor(data, next = null)
-    {
-        this.data = data;
-        this.next = next;
-    }
-}
-
+const Node = require('./singlyNode.js')
 class SinglyLinkedList
 {
     constructor()
@@ -215,6 +207,7 @@ class SinglyLinkedList
     }
 }
 
+module.exports = SinglyLinkedList;
 // Space Complexity O(n)
 // The lines below are not part of the data structure
 
