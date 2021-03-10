@@ -1,13 +1,4 @@
-class Node
-{
-    constructor(data, previous, next)
-    {
-        this.data = data;
-        this.previous = previous || null;
-        this.next = next || null;
-    }
-}
-
+const Node = require('./doublyNode.js')
 class DoublyLinkedList
 {
     constructor()
@@ -215,6 +206,7 @@ class DoublyLinkedList
     }
 }
 
+module.exports = DoublyLinkedList;
 // Space Complexity O(n)
 // The lines below are not part of the data structure
 
