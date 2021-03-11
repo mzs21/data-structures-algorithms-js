@@ -168,10 +168,9 @@ class SinglyLinkedList
         console.log('Linked List:');
 
         while (current) 
-        {
+        {   
             console.log(current);
             current = current.next;
-            
         }
     }
 
