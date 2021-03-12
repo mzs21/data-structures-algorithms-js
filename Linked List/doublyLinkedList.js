@@ -88,7 +88,6 @@ class DoublyLinkedList
         for(let count = 0; count < index; count++)
         {
             previous = current; // Node before index
-            count++;
             current = current.next; // Node after index
         }
 
@@ -152,7 +151,6 @@ class DoublyLinkedList
         {
             for(let count = 0; count < index; count++)
             {
-                count++;
                 previous = current;
                 current = current.next;
             }
