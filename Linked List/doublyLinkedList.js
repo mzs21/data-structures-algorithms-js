@@ -145,7 +145,6 @@ class DoublyLinkedList
 
         let current = this.head;
         let previous;
-        let count = 0;
 
         // Remove first
         if(this.head === 0) this.head = current.next;
