@@ -48,7 +48,7 @@ class DoublyLinkedList
 
         console.log('Linked List:');
 
-        while (current) 
+        for (let i = 0; i < this.size; i++)
         {
             console.log(`Data: ${current.data}`);
             current = current.next;
@@ -62,7 +62,7 @@ class DoublyLinkedList
 
         console.log('Linked List:');
 
-        while (current) 
+        for (let i = 0; i < this.size; i++)
         {
             console.log(current);
             current = current.next;
@@ -85,7 +85,7 @@ class DoublyLinkedList
         current = this.head;
         let count = 0;
 
-        while(count < index)
+        for(let count = 0; count < index; count++)
         {
             previous = current; // Node before index
             count++;
@@ -106,7 +106,7 @@ class DoublyLinkedList
         let current = this.head;
         let count = 0;
 
-        while(current)
+        for(let i =0; i < this.size; i++)
         {
             if(count === index) console.log(`Data at index ${index} is: ${current.data}`);
             count++;
@@ -123,7 +123,7 @@ class DoublyLinkedList
         let index = -1;
         let found = 0;
 
-        while(current)
+        for(let i =0; i < this.size; i++)
         {
             index++;
             if(current.data === data)
@@ -151,7 +151,7 @@ class DoublyLinkedList
         if(this.head === 0) this.head = current.next;
         else
         {
-            while(count < index)
+            for(let count = 0; count < index; count++)
             {
                 count++;
                 previous = current;
@@ -209,7 +209,6 @@ class DoublyLinkedList
 module.exports = DoublyLinkedList;
 // Space Complexity O(n)
 // The lines below are not part of the data structure
-
 
 /*
 const doublyLinkedList = new DoublyLinkedList();
