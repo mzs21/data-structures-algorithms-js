@@ -1,4 +1,4 @@
-const SinglyLinkedList = require('./singlyLinkedList.js')
+const SinglyLinkedList = require('./singlyLinkedList.js');
 
 class CircularSinglyLinkedList extends SinglyLinkedList
 {
