@@ -18,7 +18,7 @@ class DoublyLinkedList
             this.head.next = oldHead;
         }
 
-        this.size++
+        this.size++;
 
         console.log(`Data '${data}' is PREPENDED `);
     }
