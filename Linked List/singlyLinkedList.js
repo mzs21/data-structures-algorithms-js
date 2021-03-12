@@ -206,7 +206,7 @@ module.exports = SinglyLinkedList;
 // Space Complexity O(n)
 // The lines below are not part of the data structure
 
-
+/*
 const singlyLinkedList = new SinglyLinkedList();
 
 singlyLinkedList.prepend(100);
@@ -254,3 +254,4 @@ singlyLinkedList.printData();
 singlyLinkedList.clear();
 singlyLinkedList.length();
 singlyLinkedList.printData();
+*/
