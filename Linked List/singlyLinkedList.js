@@ -11,7 +11,7 @@ class SinglyLinkedList
     prepend(data)                               // Time Complexity O(1)
     {
         this.head = new Node(data, this.head);
-        this.size++
+        this.size++;
 
         console.log(`Data '${data}' is PREPENDED `);
     }
