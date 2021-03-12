@@ -56,9 +56,8 @@ class SinglyLinkedList
 
         // Set current to first
         current = this.head;
-        let count = 0;
-
-        while(count < index)
+        
+        for(let count = 0; count < index; count++)
         {
             previous = current; // Node before index
             count++;
@@ -79,7 +78,7 @@ class SinglyLinkedList
         let current = this.head;
         let count = 0;
 
-        while(current)
+        for(let i =0; i < this.size; i++)
         {
             if(count === index) console.log(`Data at index ${index} is: ${current.data}`);
             count++;
@@ -96,7 +95,7 @@ class SinglyLinkedList
         let index = -1;
         let found = 0;
 
-        while(current)
+        for(let i =0; i < this.size; i++)
         {
             index++;
             if(current.data === data)
@@ -124,7 +123,7 @@ class SinglyLinkedList
         if(this.head === 0) this.head = current.next;
         else
         {
-            while(count < index)
+            for(let count = 0; count < index; count++)
             {
                 count++;
                 previous = current;
@@ -153,7 +152,7 @@ class SinglyLinkedList
 
         console.log('Data(s) of Linked List:');
 
-        while (current) 
+        for (let i = 0; i < this.size; i++)
         {
             console.log(`Data: ${current.data}`);
             current = current.next;
@@ -167,7 +166,7 @@ class SinglyLinkedList
 
         console.log('Linked List:');
 
-        while (current) 
+        for (let i = 0; i < this.size; i++)
         {   
             console.log(current);
             current = current.next;
