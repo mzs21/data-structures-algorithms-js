@@ -60,7 +60,6 @@ class SinglyLinkedList
         for(let count = 0; count < index; count++)
         {
             previous = current; // Node before index
-            count++;
             current = current.next; // Node after index
         }
 
@@ -124,7 +123,6 @@ class SinglyLinkedList
         {
             for(let count = 0; count < index; count++)
             {
-                count++;
                 previous = current;
                 current = current.next;
             }
@@ -208,7 +206,7 @@ module.exports = SinglyLinkedList;
 // Space Complexity O(n)
 // The lines below are not part of the data structure
 
-/*
+
 const singlyLinkedList = new SinglyLinkedList();
 
 singlyLinkedList.prepend(100);
@@ -256,4 +254,3 @@ singlyLinkedList.printData();
 singlyLinkedList.clear();
 singlyLinkedList.length();
 singlyLinkedList.printData();
-*/
