@@ -44,8 +44,8 @@ class Queue
     // Checks if Queue is empty
     isEmpty()
     {
-        console.log(this.items.length == 0 ? 'Queue is empty' : 'Queue is NOT empty');
-        return this.items.length == 0;
+        console.log(this.items.length === 0 ? 'Queue is empty' : 'Queue is NOT empty');
+        return this.items.length === 0;
     }
 
     // Prints Queue
