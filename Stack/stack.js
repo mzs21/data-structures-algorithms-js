@@ -21,7 +21,7 @@ class Stack
 
     pop()                                                   // Time Complexity O(1)
     {
-        if(this.count == 0) return undefined;
+        if(this.count === 0) return undefined;
 
         let deleteItm = this.items[this.count - 1];
         console.log(`${deleteItm} removed`)
@@ -41,8 +41,8 @@ class Stack
 
     isEmpty()
     {
-        console.log(this.count == 0 ? 'Stack is empty' : 'Stack is NOT empty');
-        return this.count == 0;
+        console.log(this.count === 0 ? 'Stack is empty' : 'Stack is NOT empty');
+        return this.count === 0;
     }
 
     // Stacks size
