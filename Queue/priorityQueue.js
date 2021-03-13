@@ -46,7 +46,7 @@ class PriorityQueue
     // Checks if Queue is empty
     isEmpty()
     {
-        return this.list.length == 0;
+        return this.list.length === 0;
     }
 
     // Size of Queue
