@@ -1,4 +1,4 @@
-const Node = require('./singlyNode.js');
+const Node = require('./Node/singlyNode.js');
 class SinglyLinkedList
 {
     constructor()
@@ -206,9 +206,8 @@ module.exports = SinglyLinkedList;
 // Space Complexity O(n)
 // The lines below are not part of the data structure
 
-/*
-const singlyLinkedList = new SinglyLinkedList();
 
+const singlyLinkedList = new SinglyLinkedList();
 singlyLinkedList.prepend(100);
 singlyLinkedList.prepend(200);
 singlyLinkedList.prepend(300);
@@ -254,4 +253,3 @@ singlyLinkedList.printData();
 singlyLinkedList.clear();
 singlyLinkedList.length();
 singlyLinkedList.printData();
-*/
