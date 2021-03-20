@@ -299,6 +299,7 @@ class BianrySearchTree
              42  48                                            63   67         
 */
 
+/*
 const bst = new BianrySearchTree(50); // Root / Level 0
 
 // Level 1 nodes
@@ -349,3 +350,4 @@ bst.contains(45);
 bst.printTree();
 
 bst.isBalanced();
+*/
