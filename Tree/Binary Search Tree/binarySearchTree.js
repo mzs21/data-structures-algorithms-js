@@ -46,8 +46,6 @@ class BianrySearchTree
         }
 
         searchTree(this.root);
-
-        
     }
 
     remove(data)                                       // Time Complexity O(n)
@@ -78,24 +76,21 @@ class BianrySearchTree
                 node.right = removeNode(node.right, tempNode.data)
                 return node;
             }
-            
 
             else if(data < node.data)
             {
                 node.left = removeNode(node.left, data);
                 return node;
             }
+
             else
             {
                 node.right = removeNode(node.right, data);
                 return node;
             }
-            
-            
         }
         
         this.root = removeNode(this.root, data);
-        
     }
 
     min()                                   // Finds the minimum value in the tree
@@ -112,7 +107,6 @@ class BianrySearchTree
 
     max()                                   // Finds the maximum value in the tree
     {
-
         let currentNode = this.root;
 
         while(currentNode.right)             // Continue traversing through right until no more children
