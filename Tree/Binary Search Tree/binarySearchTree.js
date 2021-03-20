@@ -319,12 +319,12 @@ bst.size();
 bst.min();
 bst.max();
 
-bst.isBalanced();
-
 bst.printTree();
 
 console.log('Minimum height: ' + bst.findMinHeight());
 console.log('Maximum height: ' + bst.findMaxHeight());
+bst.isBalanced();
+
 
 bst.contains(40);
 bst.contains(98);
@@ -343,5 +343,7 @@ bst.contains(45);
 
 bst.printTree();
 
+console.log('Minimum height: ' + bst.findMinHeight());
+console.log('Maximum height: ' + bst.findMaxHeight());
 bst.isBalanced();
 */
