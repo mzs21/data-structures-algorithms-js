@@ -188,7 +188,7 @@ class BianrySearchTree
       else return right + 1;
     }
 
-    isBalanced()                            // Check if the tree is balanced or not
+    isBalanced()                            // Checks if the tree is balanced or not
     {
         this.findMinHeight() >= this.findMaxHeight() - 1 ?
         console.log(`Balanced ? Yes`) : 
