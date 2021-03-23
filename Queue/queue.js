@@ -8,7 +8,7 @@ class Queue
     // Adds element to the front of the Queue
     enqueue(element)                                    // Time Complexity O(1)
     {
-        console.log(`${element} enqueued`)
+        console.log(`${element} enqueued`);
         return this.items.push(element);
     }
 
@@ -16,8 +16,8 @@ class Queue
     dequeue()                                           // Time Complexity O(n)
     {
         let shiftedElem = this.items.shift();
-        console.log(`${shiftedElem} dequeued`)
-        return shiftedElem
+        console.log(`${shiftedElem} dequeued`);
+        return shiftedElem;
     }
     
     // Front value of Queue
