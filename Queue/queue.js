@@ -70,7 +70,6 @@ class Queue
     {
         console.log('items cleared..')
         return this.items = [];
-
     }
 }
 
