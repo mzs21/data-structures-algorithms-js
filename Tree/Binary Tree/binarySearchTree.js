@@ -237,11 +237,11 @@ class BianrySearchTree
 
         const traverse = node => 
         {
-            if(node.left) traverse(node.left); // If left child exists, got left again
+            if(node.left) traverse(node.left); // If left child exists, go left again
+
+            if(node.right) traverse(node.right); // If right child exists, go right again
 
             nodes.push(node.data);                   // Push root data
-
-            if(node.right) traverse(node.right); // If right child exists, got right again
         }
 
         traverse(this.root);
