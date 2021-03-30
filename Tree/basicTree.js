@@ -2,7 +2,7 @@ class Tree
 {
     constructor(data)
     {
-        this.parent = data;
+        this.data = data;
     }
 }
 
