@@ -56,4 +56,5 @@
 - **[Basic Tree](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Tree/basicTree.js)**
 
 #### Binary Tree
+- **[Binary Tree](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Tree/Binary%20Tree/binaryTree.js)**
 - **[Binary Search Tree](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Tree/Binary%20Tree/binarySearchTree.js)**
