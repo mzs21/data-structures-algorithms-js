@@ -16,7 +16,8 @@
 - **[Selection Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/selectionSort.js)**
 
 - **[Merge Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/mergeSort.js)**
-- **[Quicksort]([https](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/quickSort.js))**
+
+- **[Quicksort](httpshttps://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/quickSort.js)**
 
 ### **Stack**
 - **[Stack](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Stack/stack.js)**
