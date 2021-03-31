@@ -18,7 +18,7 @@ const quickSort = (arr) =>
 }
 
 // Time Complexity O(n^2) 
-// Space Complexity O(log(n))
+// Space Complexity O(n)
 
 /*
 const input = require('prompt-sync')(); // Using to take input
