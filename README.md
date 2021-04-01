@@ -26,11 +26,8 @@
 - **[Queue](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Queue/queue.js)**
 
 - **[Priority Queue](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Queue/priorityQueue.js)**
-#### Circular Queue
-- **[Circular Queue - Normal Approach](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Queue/Circular%20Queue/circularQueue1.js)**
-
-- **[Circular Queue - Private Property Approach](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Queue/Circular%20Queue/circularQueue2.js)**
-
+  
+- **[Circular Queue](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Queue/circularQueue.js)**
 ### **Linked List**
 #### Node
 - **[Node for Singly Linked List](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Linked%20List/Node/singlyNode.js)**
@@ -60,3 +57,6 @@
 #### Binary Tree
 - **[Binary Tree](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Tree/Binary%20Tree/binaryTree.js)**
 - **[Binary Search Tree](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Tree/Binary%20Tree/binarySearchTree.js)**
+
+### **Heap**
+#### Heap
