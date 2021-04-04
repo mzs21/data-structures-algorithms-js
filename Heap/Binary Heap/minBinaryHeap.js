@@ -1,4 +1,4 @@
-class MaxBinaryHeap
+class MinBinaryHeap
 {
     constructor() 
     {
@@ -40,20 +40,20 @@ class MaxBinaryHeap
     extractMin()                                        // Time Complexity O(n)
     {
         this.count--;
-        let max = this.datas[0];                        // Max data in Max Heap
+        let min = this.datas[0];                        // Min data in Min Heap
         
-        let endData = this.datas.pop();                 // Last data in Max Heap
+        let endData = this.datas.pop();                 // Last data in Min Heap
 
         let length = this.datas.length;
         if(length > 0)                                  // if array length is greater than 0
         {
-            this.datas[0] = endData;                    // The value of Max data is now 'endData'
+            this.datas[0] = endData;                    // The value of Min data is now 'endData'
             this.bubbleDown();    
         }
 
-        console.log(`${max} removed from Min Binary Heap`);
+        console.log(`${min} removed from Min Binary Heap`);
 
-        return max;
+        return min;
     }
 
     bubbleDown()                                        // Time Complexity O(n)
@@ -167,7 +167,7 @@ class MaxBinaryHeap
 // Before starting extraction
 
 /*
-let heap = new MaxBinaryHeap();
+let heap = new MinBinaryHeap();
 
 heap.insert(43);
 heap.insert(33);
