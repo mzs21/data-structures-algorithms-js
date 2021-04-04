@@ -59,4 +59,6 @@
 - **[Binary Search Tree](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Tree/Binary%20Tree/binarySearchTree.js)**
 
 ### **Heap**
-#### Heap
+#### Binary Heap
+- **[Max Binary Heap](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Heap/Binary%20Heap/maxBinaryHeap.js)**
+- **[Min Binary Heap](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Heap/Binary%20Heap/minBinaryHeap.js)**
