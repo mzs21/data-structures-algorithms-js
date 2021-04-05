@@ -62,3 +62,5 @@
 #### Binary Heap
 - **[Max Binary Heap](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Heap/Binary%20Heap/maxBinaryHeap.js)**
 - **[Min Binary Heap](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Heap/Binary%20Heap/minBinaryHeap.js)**
+  
+**[Priority Queue (Binary Heap approach)](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Heap/priorityQueue.js)**
