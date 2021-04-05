@@ -37,7 +37,7 @@ class MaxBinaryHeap
         }
     }
 
-    extractMax()                                        // Time Complexity O(n)
+    extractMax()                                        // Time Complexity O(log n)
     {
         this.count--;
         let max = this.datas[0];                        // Max data in Max Heap
@@ -56,7 +56,7 @@ class MaxBinaryHeap
         return max;
     }
 
-    bubbleDown()                                        // Time Complexity O(n)
+    bubbleDown()                                        // Time Complexity O(log n)
     {
         let index = 0;
 
