@@ -37,7 +37,7 @@ class MinBinaryHeap
         }
     }
 
-    extractMin()                                        // Time Complexity O(n)
+    extractMin()                                        // Time Complexity O(log n)
     {
         this.count--;
         let min = this.datas[0];                        // Min data in Min Heap
@@ -56,7 +56,7 @@ class MinBinaryHeap
         return min;
     }
 
-    bubbleDown()                                        // Time Complexity O(n)
+    bubbleDown()                                        // Time Complexity O(log n)
     {
         let index = 0;
 
