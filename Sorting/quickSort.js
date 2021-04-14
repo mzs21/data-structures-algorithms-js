@@ -7,9 +7,9 @@ const quickSort = (arr) =>
     let leftArr = [];
     let rightArr = [];
 
-    for (let element of arr.slice(0, arr.length - 1))     // This will loop through before the pivot element
+    for (let element = 0; element < arr.length - 1; element++)     // This will loop through before the pivot element
     {
-        element < pivot ? leftArr.push(element) : rightArr.push(element);
+        arr[element] < pivot ? leftArr.push(arr[element]) : rightArr.push(arr[element]);
         // This will print the array in ascending order, 
         // to print the array in descending order replace '<' with '>'      
     }
@@ -17,7 +17,7 @@ const quickSort = (arr) =>
     return [...quickSort(leftArr), pivot, ...quickSort(rightArr)]; // Will do recursive call untill the array is sorted
 }
 
-// Time Complexity O(n^2) 
+// Time Complexity O(n) 
 // Space Complexity O(n)
 
 /*
