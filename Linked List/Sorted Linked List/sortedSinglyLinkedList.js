@@ -45,6 +45,7 @@ class SortedSinglyLinkedList extends SinglyLinkedList
     }
 }
 
+/*
 const sortedSinglyLinkedList = new SortedSinglyLinkedList();
 sortedSinglyLinkedList.prepend(100);
 sortedSinglyLinkedList.prepend(250);
@@ -66,3 +67,4 @@ sortedSinglyLinkedList.sortLinkedList();
 sortedSinglyLinkedList.printSortedLinkedListData();
 
 sortedSinglyLinkedList.printLinkedList();
+*/
