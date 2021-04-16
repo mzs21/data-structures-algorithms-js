@@ -45,6 +45,7 @@ class SortedDoublyLinkedList extends DoublyLinkedList
     }
 }
 
+/*
 const sortedDoublyLinkedList = new SortedDoublyLinkedList();
 sortedDoublyLinkedList.prepend(100);
 sortedDoublyLinkedList.prepend(250);
@@ -66,3 +67,4 @@ sortedDoublyLinkedList.sortLinkedList();
 sortedDoublyLinkedList.printSortedLinkedListData();
 
 sortedDoublyLinkedList.printLinkedList();
+*/
