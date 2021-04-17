@@ -18,6 +18,10 @@
 - **[Merge Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/mergeSort.js)**
 
 - **[Quick Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/quickSort.js)**
+#### Heap Sort
+- **[Max Heap Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/Heap%20Sort/maxHeapSort.js)**
+
+- **[Min Heap Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/Heap%20Sort/minHeapSort.js)**
 
 ### **Stack**
 - **[Stack](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Stack/stack.js)**
