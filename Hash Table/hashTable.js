@@ -120,6 +120,8 @@ class HashTable
 }
 
 // Space Complexity O(n)
+// This isn't a efficient version
+// This hash table is only useful for strings
 // To set value "Separate Chaining" approach is used
 
 /*
