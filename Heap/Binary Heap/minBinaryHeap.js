@@ -148,6 +148,55 @@ class MinBinaryHeap
         if(parent) console.log(`Parent of ${data} is ${parent}`);
         else console.log(`'${data}' is the root`);
     }
+
+    minHeapify(arr, len, index)        // Time Complexity O(log n)
+    {
+        let min = index;                            // Parent Index
+        let leftIndex = 2 * index + 1;              // Left Index
+        let rightIndex = 2 * index + 2;             // Right Index
+
+        if(leftIndex < len && arr[leftIndex] < arr[min]) // If left child of parent exists and is less than min
+        {
+            min = leftIndex;        
+        }
+
+        if(rightIndex < len && arr[rightIndex] < arr[min]) // If right child of parent exists and is less than min
+        {
+            min = rightIndex;        
+        }
+
+        if(min !== index)   // If min is not parent index
+        {
+            [arr[index], arr[min]] = [arr[min], arr[index]]; // Swap values
+
+            this.minHeapify(arr, len, min);
+        }
+        return arr;
+    }
+
+    minHeapSort()                // Time Complexity O(n log n)
+    {
+        let arr = this.datas;
+        let length = arr.length;
+
+        let lastParent = Math.floor(length / 2 - 1);
+        let lastChild = length - 1;
+
+        for(let i = lastParent; i >= 0; i--) 
+        {
+            this.minHeapify(arr, length, lastParent);       // Building min heap
+        }
+
+        for(let i = lastChild; i > 0; i--)
+        {
+            [arr[0], arr[i]] = [arr[i], arr[0]];     // Swap parent with last node
+
+            this.minHeapify(arr, i, 0);              // Again calling minHeapify on the reduced heap
+        }
+
+        console.log(`Sorted Min Heap: ${arr.join(' ')}`);
+        return arr;
+    }
 }
 
 // Space Complexity O(n)
@@ -194,4 +243,6 @@ heap.extractMin();
 heap.print();
 
 heap.size();
+
+heap.minHeapSort();
 */
