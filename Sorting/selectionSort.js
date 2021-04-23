@@ -1,53 +1,31 @@
-const ascendingSelectionSort = (arr) => 
+const selectionSort = (arr) => 
 {
-    let index, temp;                                // This sorting algo wokrs by swaping the value of indexes
+    let index;                                      // This sorting algo wokrs by swaping the value of indexes
     
     for (let i = 0; i < (arr.length)-1; i++)        // Will loop before the (arr.length)-1
     {
         index = i;                                  // Set the value of index to 'i'
-        for(let j = i+1; j < arr.length; j++)       // This inner loop will start from (i+1)th index
+        for(let j = i+1; j < arr.length; j++)
         {
-            if(arr[j] < arr[index]) index = j;      // If the value of jth index of the array is less than the value of
-                                                    // 'index' of the array, then we set the value of index to j
-        }                                           // ** In case of ascending
+            if(arr[j] < arr[index])                 // If the value of jth index of the array is less than the value of
+            {
+                index = j;                          // 'index' of the array, then we set the value of index to j
+            }
+        } 
         
         if(index != i)                              // If the index is not equal to i,
         {
-            temp = arr[i];                          // then, we'll swap the value 
-            arr[i] = arr[index];
-            arr[index] = temp;
-        } 
-    }
-    return arr.join(" ");                           // This array will be sorted
-}
-
-const descendingSelectionSort = (arr) => 
-{
-    let index, temp;                                // This sorting algo wokrs by swaping the value of indexes
-
-
-    for (let i = 0; i < (arr.length) - 1; i++)      // Will loop before the (arr.length)-1
-    {    
-        index = i;                                  // Set the value of index to 'i'
-
-        for (let j = i + 1; j < arr.length; j++)    // This inner loop will start from (i+1)th index
-        {
-            if (arr[j] > arr[index]) index = j;     // If the value of jth index of the array is greater than the value of
-                                                    // 'index' of the array, then we set the value of index to j
-        }                                           // ** In case of descending
-
-        if (index != i)                             // If the index is not equal to i,
-        {                           
-            temp = arr[i];                          // then, we'll swap the value
-            arr[i] = arr[index];
-            arr[index] = temp;
+            [arr[i], arr[index]] = [arr[index], arr[i]];  // then, we'll swap the value 
         }
     }
-    return arr.join(" ");                           // This array will be sorted
+    return arr;                                     // This array will be sorted
 }
 
+// This will print the array in ascending order, 
+// to print the array in descending order replace '<' with '>' on line 10
+
 // Time Complexity O(n^2) 
-// Space Complexity O(n)
+// Space Complexity O(1)
 
 /*
 const input = require('prompt-sync')(); // Using to take input
@@ -64,7 +42,7 @@ for (let i = 0; i < newStr.length; i++) {
 
 console.log(`Array: ${newArray.join(' ')}`); // This array will be of integers
 
-console.log(`Sorted Array (Ascending): ${ascendingSelectionSort(newArray)}`);
+console.log(`Sorted Array (Ascending): ${selectionSort(newArray).join(' ')}`);
 
-console.log(`Sorted Array (Descending): ${descendingSelectionSort(newArray)}`);
+//console.log(`Sorted Array (Descending): ${selectionSort(newArray).join(' ')}`);
 */
