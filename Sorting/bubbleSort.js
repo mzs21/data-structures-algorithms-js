@@ -1,43 +1,23 @@
-const ascendingBubbleSort = (arr) =>
+const bubbleSort = (arr) =>
 {
-    let temp;
-
-    for (let i = 0; i < arr.length; i++)                // Will loop through the array
+    for (let i = 0; i < arr.length; i++)                
     {
         for (let j = 0; j < (arr.length)-i-1; j++)      // This inner loop will loop before (arr.length)-i-1
         {
             if(arr[j] > arr[j+1])                       // If this conditiion fulfills, then we'll swap the values
-            {                                           // ** In case of ascending
-                temp = arr[j];
-                arr[j] = arr[j+1];
-                arr[j+1] = temp;
+            {                                           
+                [arr[j], arr[j+1]] = [arr[j+1], arr[j]]; // Swapping values
+
+                // This will print the array in ascending order, 
+                // to print the array in descending order replace '>' with '<' 
             }
         }
     }
-    return arr.join(" ");
+    return arr;
 }
-
-const descendingBubbleSort = (arr) => {
-    let temp;
-
-    for (let i = 0; i < arr.length; i++)                // Will loop through the array
-    {
-        for (let j = 0; j < (arr.length)-i-1; j++)      // This inner loop will loop before (arr.length)-i-1
-        {
-            if (arr[j] < arr[j + 1])                    // If this conditiion fulfills, then we'll swap the values
-            {                                           // ** In case of descending
-                temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-            }
-        }
-    }
-    return arr.join(" ");
-}
-
 
 // Time Complexity O(n^2) 
-// Space Complexity O(n) 
+// Space Complexity O(1) 
 
 /*
 const input = require('prompt-sync')(); // Using to take input
@@ -54,8 +34,8 @@ for (let i = 0; i < newStr.length; i++) {
 
 console.log(`Array: ${newArray.join(' ')}`); // This array will be of integers
 
+console.log(`Sorted Array (Ascending): ${bubbleSort(newArray).join(' ')}`);
 
-console.log(`Sorted Array (Ascending): ${ascendingBubbleSort(newArray)}`);
-
-console.log(`Sorted Array (Descending): ${descendingBubbleSort(newArray)}`);
+//console.log(`Sorted Array (Descending): ${bubbleSort(newArray).join(' ')}`);
+// To print in descending order, change '>' to '<' on line 7
 */
