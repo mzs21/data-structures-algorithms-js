@@ -16,13 +16,15 @@
 - **[Selection Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/selectionSort.js)**
 
 - **[Merge Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/mergeSort.js)**
-
-- **[Quick Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/quickSort.js)**
 #### Heap Sort
 - **[Max Heap Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/Heap%20Sort/maxHeapSort.js)**
 
 - **[Min Heap Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/Heap%20Sort/minHeapSort.js)**
 
+#### Quick Sort
+- **[Quick Sort (Normal Approach)](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/Quick%20Sort/quickSort%20(Normal%20Approach).js)**
+  
+- **[Quick Sort (Partition Approach)](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/Quick%20Sort/quickSort%20(Partition%20Approach).js)**
 ### **Stack**
 - **[Stack](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Stack/stack.js)**
 
