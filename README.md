@@ -16,6 +16,7 @@
 - **[Selection Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/selectionSort.js)**
 
 - **[Merge Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/mergeSort.js)**
+- **[Radix Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/radixSort.js)**
 #### Heap Sort
 - **[Max Heap Sort](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Sorting/Heap%20Sort/maxHeapSort.js)**
 
