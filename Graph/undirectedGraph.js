@@ -147,7 +147,7 @@ class UndirectedGraph
 
 // To change the order of BFS do 'this.adjacencyList[currentVertex].slice().reverse().forEach' on line 131
 
-// UNDIRECTED GRAPH
+// This is an UNWEIGHTED UNDIRECTED GRAPH
 
 /*
 
