@@ -74,3 +74,6 @@
 
 ### **Hash Table**
 **[Hash Table (Separate Chaining approach)](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Hash%20Table/hashTable.js)**
+
+### **Graph**
+**[Undirected Graph](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Graph/undirectedGraph.js)**
