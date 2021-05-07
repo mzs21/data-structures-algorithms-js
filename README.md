@@ -80,3 +80,6 @@
 - **[Undirected Graph](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Graph/undirectedGraph.js)**
 
 - **[Directed Graph](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Graph/directedGraph.js)**
+
+### **Dijkstra's Algorithm**
+**[Shortest Path Graph](https://github.com/mzs21/data-structures-algorithms-js/blob/main/Dijkstra's%20Algorithm/shortestPathGraph.js)**
